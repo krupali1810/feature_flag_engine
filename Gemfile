@@ -45,3 +45,7 @@ group :development do
   # gem "spring"
 end
 
+
+gem "rspec-rails", "~> 7.1", :groups => [:development, :test]
+
+gem "simplecov", "~> 0.22.0", :group => :test
